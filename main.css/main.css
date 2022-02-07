@@ -20,11 +20,12 @@
     }
     
     .baterija{
+        top: 5px;
         position: relative;
         border-radius:20px;
         text-align: center;
         width: 373px;
-        height: 190px;
+        height: 186px;
         border: 20px solid #070707
         
     }
