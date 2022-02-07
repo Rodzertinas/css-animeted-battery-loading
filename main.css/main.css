@@ -3,23 +3,35 @@
     padding: 0;
     }
     
+    .uzdengimas1{
+        position: absolute;
+        width: 70px;
+        height: 90px;
+        background-color: rgb(255, 255, 255);
+        left: 421px;
+    }
+    .uzdengimas2{
+        position: absolute;
+        width: 70px;
+        height: 92px;
+        background-color: rgb(255, 255, 255);
+        left: 421px;
+        top: 155px;
+    }
     
     .baterija{
-        
+        position: relative;
         border-radius:20px;
         text-align: center;
         width: 373px;
-        height: 200px;
+        height: 190px;
         border: 20px solid #070707
         
-    
     }
-    
-    
     .taskiukas{
         border-radius: 10px;
         position: absolute;
-        width: 10px;
+        width: 50px;
         height: 50px;
         border: solid 20px;
         left: 405px;
@@ -27,12 +39,11 @@
     }
     .pirmas{
         position: absolute;
-        width: 740px;
+        width: 930px;
         height: 200px;
-        left: 30px;
-        top: 0px;
-      
-    
+        left: 20px;
+        top: -3px;
+        z-index: -1;
     }
     .pirmas::before{
         content: '';
@@ -44,8 +55,6 @@
         left: 0px;
         top: 31px;
         animation: pirmas 10s infinite;
-    
-        
     }
     @keyframes pirmas{
         0%{
