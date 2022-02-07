@@ -3,6 +3,35 @@
     padding: 0;
     }
     
+    .pirmasstulpas{
+        position: absolute;
+        top: 25px;
+        width: 20px;
+        height: 210px;
+        background-color: #ffffff;
+        left: 110px;
+    }
+    .antrasstulpas{
+        position: absolute;
+        top: 25px;
+        width: 20px;
+        height: 210px;
+        background-color: #ffffff;
+        left: 210px;
+    }
+    .treciasstulpas{
+        position: absolute;
+        top: 25px;
+        width: 20px;
+        height: 210px;
+        background-color: #ffffff;
+        left: 310px;
+    }
+
+
+
+
+
     .uzdengimas1{
         position: absolute;
         width: 70px;
