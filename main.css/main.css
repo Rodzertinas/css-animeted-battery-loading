@@ -37,7 +37,7 @@
     .pirmas::before{
         content: '';
         position: absolute;
-        width: 70px;
+        width: 0px;
         height: 195px;
         
         background-color: #ff0606;
