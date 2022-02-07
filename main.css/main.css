@@ -1,0 +1,63 @@
+*body{
+margin: 0;
+padding: 0;
+}
+
+}
+main{
+
+  
+   
+}
+.baterija{
+    border-radius:20px;
+    text-align: center;
+    width: 373px;
+    height: 200px;
+    border: 20px solid #070707
+}
+.taskiukas{
+    border-radius: 10px;
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    border: solid 20px;
+    left: 405px;
+    top: 100px;
+}
+.pirmas{
+    position: absolute;
+    width: 70px;
+    height: 200px;
+    border: solid 10px;
+    background-color: rgb(75, 1, 1);
+    left: 30px;
+    top: 17px;
+}
+.antras{
+    position: absolute;
+    width: 70px;
+    height: 200px;
+    border: solid 10px;
+    background-color: rgb(75, 1, 1);
+    left: 122px;
+    top: 17px;
+}
+.trecias{
+    position: absolute;
+    width: 70px;
+    height: 200px;
+    border: solid 10px;
+    background-color: rgb(1, 83, 1);
+    left: 215px;
+    top: 17px;
+}
+.ketvirtas{
+    position: absolute;
+    width: 70px;
+    height: 200px;
+    border: solid 10px;
+    background-color: rgb(1, 83, 1);
+    left: 308px;
+    top: 17px;
+}
